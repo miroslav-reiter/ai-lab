@@ -1,0 +1,4 @@
+id,typ_vzorky,skutocny_povod,predikcia,confidence,rezim,jazyk,poznamka
+ai_01,text-ai-vzor.txt,ai,,,Basic,sk,
+human_01,vlastny-text-ucastnika,human,,,Basic,sk,
+mixed_01,zlozeny-dokument,mixed,,,Advanced,sk,
