@@ -47,7 +47,7 @@ def main():
         if actual not in GROUND_TRUTH or predicted not in ALLOWED:
             errors.append((number, actual, predicted))
             continue
-        finished.append((row.get("id") or "").strip(), actual, predicted))
+        finished.append(((row.get("id") or "").strip(), actual, predicted))
 
     print("GPTZero - vyhodnotenie rucne zaznamenanych vysledkov")
     print(f"Zaznamov v CSV: {len(rows)}")
