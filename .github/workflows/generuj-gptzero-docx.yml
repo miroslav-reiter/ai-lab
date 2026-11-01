@@ -1,0 +1,49 @@
+name: Generate GPTZero Word documents
+
+on:
+  push:
+    paths:
+      - 'scripts/generuj-gptzero-docx.py'
+      - '.github/workflows/generuj-gptzero-docx.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-docx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install document library
+        run: python -m pip install python-docx==1.2.0
+      - name: Create all Word documents
+        run: python scripts/generuj-gptzero-docx.py
+      - name: Verify DOCX file count and source texts
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from docx import Document
+          p=Path('data/gptzero-testovacie-texty')
+          docs=sorted((p/'word').glob('*.docx'))
+          assert len(docs)==10, f'{len(docs)} Word files'
+          for d in docs:
+              src=(p/(d.stem+'.txt')).read_text(encoding='utf-8').strip().replace('\r\n','\n')
+              actual='\n\n'.join(x.text for x in Document(d).paragraphs)
+              assert actual=='\n\n'.join(x.strip() for x in src.split('\n\n') if x.strip()),d.name
+          print('Verified 10 Word files with exact source text')
+          PY
+      - name: Commit Word files and ZIP
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gptzero-testovacie-texty/word data/gptzero-testovacie-texty/gptzero-testovacie-texty-word.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Pridanie 10 Word testovacich textov GPTZero a ZIP"
+            git push
+          fi
