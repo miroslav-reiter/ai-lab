@@ -19,6 +19,12 @@ Materiály sú určené pre **učiteľov, lektorov, vysokoškolských pedagógov
 - Google Dokumenty: **Writing Report / Writing Replay** cez rozšírenie
 - Pokročilé funkcie: Plagiarism Check, AI Hallucinations / Fact Check, Possible AI Paraphrasing podľa dostupného plánu
 
+## 🧪 Hotové testovacie texty GPTZero
+
+**[Súbor testovacích textov – data/gptzero-testovacie-texty/](data/gptzero-testovacie-texty/README.md)** obsahuje 10 AI-generovaných vzoriek od krátkeho komentára po odborné, akademické a marketingové články v slovenčine aj angličtine. Dopĺňajú ich metodiky na skutočne ľudskú kontrolnú vzorku a zmiešaný text, metadáta so známym pôvodom a postup zaznamenávania reálnych výsledkov z GPTZero.
+
+**Upozornenie:** Hotové texty vytvorila AI; GPTZero ich môže klasifikovať aj inak. Nesmieme ich vydávať za ľudské.
+
 ## 🧠 Základný model práce
 
 1. Pripravíme testovací text alebo dokument so **známym pôvodom**.

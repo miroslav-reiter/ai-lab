@@ -1,0 +1,11 @@
+id,subor,zaner,jazyk,pocet_slov,skutocny_povod,predikcia,confidence,poznamka
+ai_01,01-ai-odborny-it-kyberbezpecnost.txt,Odborný IT text,sk,321,ai,,,"vytvorene AI; neskenovane"
+ai_02,02-ai-akademicky-text-vzdelavanie.txt,Akademický text,sk,355,ai,,,"vytvorene AI; neskenovane"
+ai_03,03-ai-seo-wordpress-blog.txt,SEO článok,sk,341,ai,,,"vytvorene AI; neskenovane"
+ai_04,04-ai-marketingovy-prispevok.txt,Marketingový príspevok,sk,306,ai,,,"vytvorene AI; neskenovane"
+ai_05,05-ai-uradny-formalny-text.txt,Úradný text,sk,345,ai,,,"vytvorene AI; neskenovane"
+ai_06,06-ai-literarny-pribeh.txt,Literárny príbeh,sk,353,ai,,,"vytvorene AI; neskenovane"
+ai_07,07-ai-produktovy-popis.txt,Produktový opis,sk,317,ai,,,"vytvorene AI; neskenovane"
+ai_08,08-ai-popularizacny-vedecky.txt,Vedecký popularizačný text,sk,344,ai,,,"vytvorene AI; neskenovane"
+ai_09,09-ai-english-training.txt,English training text,en,426,ai,,,"vytvorene AI; neskenovane"
+ai_10,10-ai-kratky-komentar.txt,Krátky komentár,sk,29,ai,,,"vytvorene AI; neskenovane"

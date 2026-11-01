@@ -42,3 +42,7 @@ python3 scripts/vyhodnotenie-gptzero.py --input data/vysledky-vzor.csv
 ```
 
 **Vysvetlenie:** Skript neodosiela požiadavky na internet, nečíta dokumenty mimo CSV a nedeteguje AI. Počíta len štatistiky výsledkov, ktoré ručne zadáme po skutočnom skenovaní.
+
+## Rozšírená sada GPTZero
+
+V priečinku [gptzero-testovacie-texty/](gptzero-testovacie-texty/README.md) nájdeme 10 ďalších AI ukážok, vysvetlenie testovania, šablónu na nezávisle napísaný ľudský text a postup vytvorenia Mixed vzorky.
