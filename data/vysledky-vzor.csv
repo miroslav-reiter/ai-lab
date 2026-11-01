@@ -2,3 +2,13 @@ id,typ_vzorky,skutocny_povod,predikcia,confidence,rezim,jazyk,poznamka
 ai_01,text-ai-vzor.txt,ai,,,Basic,sk,
 human_01,vlastny-text-ucastnika,human,,,Basic,sk,
 mixed_01,zlozeny-dokument,mixed,,,Advanced,sk,
+ai_lab_01,gptzero-testovacie-texty/01-ai-odborny-it-kyberbezpecnost.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_02,gptzero-testovacie-texty/02-ai-akademicky-text-vzdelavanie.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_03,gptzero-testovacie-texty/03-ai-seo-wordpress-blog.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_04,gptzero-testovacie-texty/04-ai-marketingovy-prispevok.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_05,gptzero-testovacie-texty/05-ai-uradny-formalny-text.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_06,gptzero-testovacie-texty/06-ai-literarny-pribeh.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_07,gptzero-testovacie-texty/07-ai-produktovy-popis.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_08,gptzero-testovacie-texty/08-ai-popularizacny-vedecky.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_09,gptzero-testovacie-texty/09-ai-english-training.txt,ai,,,Basic,en,testovacia AI vzorka; neskontrolovana v GPTZero
+ai_lab_10,gptzero-testovacie-texty/10-ai-kratky-komentar.txt,ai,,,Basic,sk,testovacia AI vzorka; neskontrolovana v GPTZero
