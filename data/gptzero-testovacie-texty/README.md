@@ -4,6 +4,28 @@ Tento priečinok obsahuje **10 textových vzoriek vytvorených pomocou generatí
 
 **Dôležité:** Všetky ukážky označené prefixom `ai-` majú známy pôvod **AI**. Nesmú sa prezentovať ako autenticky ľudské texty. Výsledok GPTZero nie je známy vopred a na týchto súboroch nebol vykonaný živý sken.
 
+## 📄 Microsoft Word – DOCX verzie všetkých textov
+
+Všetkých 10 testovacích vzoriek je dostupných aj ako **samostatné Word dokumenty (.docx)**. Text zostal rovnaký ako v pôvodných TXT súboroch, bez pridaného nadpisu alebo popisu v tele dokumentu. Takto môžeme porovnať výsledok GPTZero pre TXT a DOCX bez obsahovej zmeny.
+
+- **[Stiahnuť celý balík 10 DOCX súborov (ZIP)](gptzero-testovacie-texty-word.zip)**
+- **[Otvoriť priečinok so samostatnými Word dokumentmi](word/)**
+
+| Word dokument | Téma |
+|---|---|
+| [01-ai-odborny-it-kyberbezpecnost.docx](word/01-ai-odborny-it-kyberbezpecnost.docx) | Kybernetická bezpečnosť |
+| [02-ai-akademicky-text-vzdelavanie.docx](word/02-ai-akademicky-text-vzdelavanie.docx) | Akademický pedagogický text |
+| [03-ai-seo-wordpress-blog.docx](word/03-ai-seo-wordpress-blog.docx) | SEO a WordPress |
+| [04-ai-marketingovy-prispevok.docx](word/04-ai-marketingovy-prispevok.docx) | Marketingový text |
+| [05-ai-uradny-formalny-text.docx](word/05-ai-uradny-formalny-text.docx) | Formálny úradný text |
+| [06-ai-literarny-pribeh.docx](word/06-ai-literarny-pribeh.docx) | Kreatívne písanie |
+| [07-ai-produktovy-popis.docx](word/07-ai-produktovy-popis.docx) | Produktový opis |
+| [08-ai-popularizacny-vedecky.docx](word/08-ai-popularizacny-vedecky.docx) | Populárno-vedecký text |
+| [09-ai-english-training.docx](word/09-ai-english-training.docx) | Anglický odborný text |
+| [10-ai-kratky-komentar.docx](word/10-ai-kratky-komentar.docx) | Krátky komentár |
+
+Na opätovné vytvorenie Word dokumentov z originálnych TXT súborov slúži skript [generuj-gptzero-docx.py](../../scripts/generuj-gptzero-docx.py).
+
 ## 📁 Zoznam vzoriek
 
 | Súbor | Žáner | Jazyk | Počet slov | Skutočný pôvod |
