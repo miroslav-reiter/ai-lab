@@ -2,10 +2,6 @@
 
 Praktický študijný materiál na tvorbu kvalitných promptov v **ChatGPT, Google Gemini a ďalších AI nástrojoch**. Vysvetľujeme štyri opakovateľné štruktúry zadania a ukazujeme ich využitie v každodennej práci, obchode, HR, marketingu, manažmente aj vo vedeckom výskume.
 
-**Primárny podklad:** *Promptovacie Frameworky.pdf* (**28 strán**). Kompletné príklady a ich vstupné údaje vychádzajú z prezentácie. Označené **metodické doplnenia** poskytujú kontrolné poznámky, ukážkové šablóny a odporúčania, ktoré nie sú doslovnou súčasťou podkladu. Citácie strán pri príkladoch odkazujú na pôvodné PDF.
-
-**Súvisiace súbory:** [prompt-engineering.md](prompt-engineering.md) · [promptovacie-techniky.md](promptovacie-techniky.md).
-
 > **Základný princíp:** Dobre napísaný jednoduchý prompt môže byť účinnejší než rozsiahla šablóna. Framework vyberáme podľa charakteru úlohy a požadovaného spôsobu spracovania, nie podľa počtu jeho komponentov alebo zložitosti.
 
 ## 📚 Obsah
@@ -979,8 +975,6 @@ Po spustení každého promptu skontrolujeme, či model splnil **údajové, proc
 - [Google – Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)
 - [Google – Gems to Skills transition](https://support.google.com/gemini/answer/18560919)
 - [AWS Builder Center – Effective prompts and prompt frameworks](https://builder.aws.com/content/2mzFQJXPQaF5iATLz1KKAQd9JeT/considerations-for-effective-prompts-engineering-and-prompt-frameworks)
-
-Prezentácia spomína aj zdroj **University of Texas – CRISPE Framework**; konkrétny odkaz v podklade nie je textovo uvedený, preto ho bez overenia nevkladáme.
 
 **Ďalšie dokumenty v repozitári:**
 
