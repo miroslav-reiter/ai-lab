@@ -715,6 +715,3 @@ Na snímkach prezentácie sú aj ukážky **Superpower for Gemini**, **Workbench
 - [OpenAI – How to change your language setting in ChatGPT](https://help.openai.com/en/articles/8357869-how-to-change-your-language-setting-in-chatgpt)
 - [Google – Change Gemini's language](https://support.google.com/gemini/answer/15984485)
 
-**Metodická poznámka:** Frameworky a kategórie obmedzení sú výučbové pomôcky, nie garantované algoritmy. Ich účinnosť posudzujeme na konkrétnej úlohe a výstupy používame až po primeranom overení.
-
-**Repozitár:** [miroslav-reiter/ai-lab](https://github.com/miroslav-reiter/ai-lab) · **Súvisiaci vzor štruktúry:** [sed-lab](https://github.com/miroslav-reiter/sed-lab)
